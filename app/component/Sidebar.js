@@ -11,8 +11,7 @@ export default function Sidebar() {
     <div className="w-[23rem] h-full gap-2 flex flex-col  text-white">
         <UpperSidebar/>
         <LowerSidebar/>
-        
-        </div>
+    </div>
   )
 };
 
