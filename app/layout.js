@@ -1,4 +1,4 @@
-
+import { Home } from "lucide-react";
 import Sidebar from "./component/Sidebar";
 import "./globals.css";
 
@@ -12,8 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="flex gap-4 box-border p-2 bg-black text-white "> 
-        <Sidebar/>
+      <body > 
         {children}
       </body>
     </html>

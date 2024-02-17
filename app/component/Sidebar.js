@@ -1,6 +1,7 @@
 import React from 'react'
-import UpperSidebar from './UpperSidebar';
-import LowerSidebar from './LowerSidebar';
+import { Home, Search, Plus, Library } from "lucide-react";
+
+
 
 
 
@@ -8,10 +9,16 @@ import LowerSidebar from './LowerSidebar';
 
 export default function Sidebar() {
   return (
-    <div className="w-[23rem] h-full gap-2 flex flex-col  text-white">
-        <UpperSidebar/>
-        <LowerSidebar/>
-    </div>
+    <div className="bg-[#121212] h-[8rem] rounded-lg p-6 w-[18rem] font-medium text-lg flex flex-col gap-4">
+          <button className="flex gap-4 items-center ">
+            <Home strokeWidth={3} />
+            Home
+          </button>
+          <button className="flex gap-4 items-center">
+            <Search strokeWidth={1} />
+            <span className="text-gray-600 hover:text-white ">search</span>
+          </button>
+   </div>
   )
 };
 
