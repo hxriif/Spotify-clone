@@ -13,7 +13,7 @@ import LowerSidebar from "./LowerSidebar";
 
 export default function Navbar() {
   return (
-   <div className="bg-[#121212] rounded-lg  h-[31.4rem] w-[59rem] mt-1 ">
+   <div className="bg-[#121212] rounded-lg  h-[31.4rem] w-[59rem]  ">
     <div className="flex justify-between ">
       <div className="flex p-5 gap-3">
         <ChevronLeft/>
